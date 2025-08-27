@@ -14,6 +14,9 @@
             for (int i = 0; i < cars.Length; i++)
             {
                 Console.WriteLine(cars[i]);
+                Console.WriteLine(cars[1]);
+
+
             }
 
             Console.ReadKey();
