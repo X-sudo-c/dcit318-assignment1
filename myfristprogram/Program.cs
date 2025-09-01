@@ -1,26 +1,17 @@
-﻿namespace MyFirstProgram
+﻿using Sysytem;
+
+namespace lEcture2
 {
-    class Program
+    public class Person
     {
-        static void Main(string[] args)
-        {
-            //array = a variable that can staor multiple values . fixed size
-
-            String[] cars = { "BMW", "Mustang", "Corvette" };
-
-            cars[0] = "Tesla";
+        string car = "moves";
+        int car = 128;
 
 
-            for (int i = 0; i < cars.Length; i++)
-            {
-                Console.WriteLine(cars[i]);
-                Console.WriteLine(cars[1]);
+        public const int Months = 12;
+        public const int Weeks = 52, Days = 365;
+        public const int numeber = 36;
 
 
-            }
-
-            Console.ReadKey();
-
-        }
     }
 }

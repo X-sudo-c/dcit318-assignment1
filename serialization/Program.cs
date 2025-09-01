@@ -108,7 +108,7 @@ namespace InventoryRecordSystem
             foreach (var item in items)
             {
                 Console.WriteLine($"Id={item.Id}, Name={item.Name}, Qty={item.Quantity}, DateAdded={item.DateAdded}");
-            }
+            }//comment
         }
     }
 
