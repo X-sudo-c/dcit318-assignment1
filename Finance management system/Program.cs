@@ -1,4 +1,5 @@
-﻿using System;
+///interface for app
+using System;
 using System.Collections.Generic;
 
 public record Transaction(int Id, DateTime Date, decimal Amount, string Category);
